@@ -1,0 +1,7 @@
+1. config.ini 파일을 연다
+2. single_setting 쪽의 index를 5 또는 6으로 설정한다.
+3. single_setting 쪽에서 바꾸고 싶은 값이 있으면 바꿔 설정한다.
+4. multi_setting 쪽에서 바꾸고 싶은 값이 있으면 띄어쓰기 없이 바꿔 설정한다.
+5. run.py 파일을 실행한다.
+
+--> 모든 learning_rate와 range에 대해 그래프는 .jpg파일로 저장되고 accuracy는 콘솔로 보여진다.
