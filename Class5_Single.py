@@ -94,7 +94,7 @@ class Class5_Single(object):
             temp_acc_test = sess.run(accuracy, feed_dict={x: self.x_vals_test, y_: self.y_vals_test})
             self.test_acc.append(temp_acc_test)
 
-        print(" Accuracy : " + sess.run(accuracy, feed_dict={x: self.x_vals_test, y_: self.y_vals_test}))
+        print(" Accuracy : " + str(sess.run(accuracy, feed_dict={x: self.x_vals_test, y_: self.y_vals_test})))
         plt.plot(self.train_acc, 'k-', label = 'Train Set Accuracy')
         plt.plot(self.test_acc, 'r--', label = 'Test Set Accuracy')
         plt.title('Train and Test Accuracy')
